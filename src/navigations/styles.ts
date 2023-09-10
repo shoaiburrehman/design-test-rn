@@ -1,6 +1,7 @@
 import {StyleSheet} from 'react-native';
 import {vh, vw} from '../themes/units';
 import {Colors} from '../themes/Colors';
+import {Fonts} from '../themes';
 
 const styles = StyleSheet.create({
   container: {
@@ -26,6 +27,33 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
   },
+  notifImg: {width: vw * 7.5, height: vw * 7.5},
+  linearText: {
+    height: vw * 11,
+    width: vw * 11,
+    borderRadius: vw * 5.5,
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginLeft: vw * 5,
+  },
+  profView: {
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: Colors.BG_COLOR,
+    height: vw * 10.4,
+    width: vw * 10.4,
+    borderRadius: vw * 5.2,
+  },
+  profImg: {width: vw * 9, height: vw * 9, borderRadius: vw * 4.5},
+  notifCount: {
+    position: 'absolute',
+    right: 0,
+    width: vw * 3.5,
+    height: vw * 3.5,
+    borderRadius: vw * 3.5,
+    backgroundColor: Colors.NOTIF_COLOR,
+  },
+  notifText: {...Fonts.Regular(10), textAlign: 'center'},
   bottomTabCircle: {
     width: vw * 2,
     height: vw * 2,

@@ -61,47 +61,18 @@ const renderHeaderRight = (props: any) => {
   return (
     <View style={styles.row}>
       <TouchableOpacity>
-        <Image
-          source={icons.notification}
-          style={{width: vw * 7.5, height: vw * 7.5}}
-        />
-        <View
-          style={{
-            position: 'absolute',
-            right: 0,
-            width: vw * 3.5,
-            height: vw * 3.5,
-            borderRadius: vw * 3.5,
-            backgroundColor: Colors.NOTIF_COLOR,
-          }}>
-          <Text style={{...Fonts.Regular(10), textAlign: 'center'}}>5</Text>
+        <Image source={icons.notification} style={styles.notifImg} />
+        <View style={styles.notifCount}>
+          <Text style={styles.notifText}>5</Text>
         </View>
       </TouchableOpacity>
       <LinearGradient
-        start={{x: 0, y: 0}} // Start at the top-left corner (0, 0)
-        end={{x: 1, y: 1}} // End at the bottom-right corner (1, 1)
+        start={{x: 0, y: 0}}
+        end={{x: 1, y: 1}}
         colors={Colors.TEXT_LINEAR}
-        style={{
-          height: vw * 11,
-          width: vw * 11,
-          borderRadius: vw * 5.5,
-          alignItems: 'center',
-          justifyContent: 'center',
-          marginLeft: vw * 5,
-        }}>
-        <View
-          style={{
-            alignItems: 'center',
-            justifyContent: 'center',
-            backgroundColor: Colors.BG_COLOR,
-            height: vw * 10.4,
-            width: vw * 10.4,
-            borderRadius: vw * 5.2,
-          }}>
-          <Image
-            source={images.profImg}
-            style={{width: vw * 9, height: vw * 9, borderRadius: vw * 4.5}}
-          />
+        style={styles.linearText}>
+        <View style={styles.profView}>
+          <Image source={images.profImg} style={styles.profImg} />
         </View>
       </LinearGradient>
     </View>

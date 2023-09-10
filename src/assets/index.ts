@@ -22,9 +22,10 @@ export const icons = {
   calendar2: require('./icons/calendar2.png'),
   edit: require('./icons/edit.png'),
   message: require('./icons/message.png'),
+  notification: require('./icons/notification.png'),
   more: require('./icons/more.png'),
   search: require('./icons/search.png'),
-  share: require('./icons/share.png')
+  share: require('./icons/share.png'),
 };
 
 export const tabIcons = {
@@ -35,4 +36,4 @@ export const tabIcons = {
   profileInactive: require('./tabIcons/profile-inactive.png'),
   searchInactive: require('./tabIcons/search-inactive.png'),
   settingInactive: require('./tabIcons/setting-inactive.png'),
-}
+};

@@ -4,7 +4,7 @@ export const Colors = {
   WARM_WHITE: '#DBDBDB',
   BLACK_CIRCLE: '#1B1B1B',
   BLACK_CIRCLE2: '#2B2B2B',
-  TEXT_LINEAR: ['#F2AC8A, #8386FF, #9B74FF'],
+  TEXT_LINEAR: ['#F2AC8A', '#8386FF', '#9B74FF'],
   PALE_PINK: '#BB62A0',
   PURPLE_OUT: '#6B32FF',
   PURPLE_IN: '#8150FF',
@@ -12,6 +12,7 @@ export const Colors = {
   PENDING: '#FFC75C',
   TAB_COLOR: '#725DFF',
   BG_COLOR: '#1F1F1F',
+  NOTIF_COLOR: '#FF964B',
 };
 
 export const APP_SHADOW = {

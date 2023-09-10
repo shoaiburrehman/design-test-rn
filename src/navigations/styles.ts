@@ -7,6 +7,17 @@ const styles = StyleSheet.create({
     height: vh * 3,
     width: vh * 3,
   },
+  bottomTabIcon: {
+    width: vw * 6,
+    height: vw * 6,
+  },
+  bottomTabCircle: {
+    width: vw * 2,
+    height: vw * 2,
+    marginTop: vh,
+    borderRadius: vw,
+    backgroundColor: Colors.TAB_COLOR,
+  },
 
   logoStyle: {
     resizeMode: 'contain',

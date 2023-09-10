@@ -11,6 +11,8 @@ import {
   StyleSheet,
   View,
 } from 'react-native';
+import Navigation from './src/navigations';
+import { Colors } from './src/themes/Colors';
 
 function App() {
 
@@ -21,7 +23,7 @@ function App() {
         backgroundColor="transparent"
         barStyle="dark-content"
       />
-      {/* <Navigation /> */}
+      <Navigation />
     </View>
   );
 }
@@ -29,6 +31,7 @@ function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    backgroundColor: Colors.BLACK
   },
 });
 

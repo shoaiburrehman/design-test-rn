@@ -9,7 +9,8 @@ export const Colors = {
   PURPLE_OUT: "#6B32FF",
   PURPLE_IN: "#8150FF",
   PENDING_BG: "#FFC9614D",
-  PENDING: "#FFC75C"
+  PENDING: "#FFC75C",
+  TAB_COLOR: "#725DFF"
 };
 
 export const APP_SHADOW = {

@@ -30,6 +30,7 @@ export const icons = {
 export const tabIcons = {
   folderInactive: require('./tabIcons/folder-inactive.png'),
   homeActive: require('./tabIcons/home-active.png'),
+  homeInactive: require('./tabIcons/home-inactive.png'),
   profileActive: require('./tabIcons/profile-active.png'),
   profileInactive: require('./tabIcons/profile-inactive.png'),
   searchInactive: require('./tabIcons/search-inactive.png'),

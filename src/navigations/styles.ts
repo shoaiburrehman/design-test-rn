@@ -68,12 +68,6 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
   },
-  profView: {
-    margin: 1,
-    width: vw * 8,
-    height: vw * 8,
-    borderRadius: vw * 3,
-  },
   visit: {
     margin: 1,
     paddingHorizontal: 8,

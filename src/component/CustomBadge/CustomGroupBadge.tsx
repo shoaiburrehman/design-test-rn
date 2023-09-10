@@ -1,5 +1,12 @@
 import React, {FC} from 'react';
-import {Image, ImageStyle, StyleSheet, Text, View} from 'react-native';
+import {
+  Image,
+  ImageStyle,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  View,
+} from 'react-native';
 import {Fonts} from '../../themes';
 import {Colors} from '../../themes/Colors';
 import {vh, vw} from '../../themes/units';
@@ -43,14 +50,16 @@ const CustomGroupBadge: FC<ParticipantsType> = ({
                         left: (i + 1) * 25,
                       },
                     ]}>
-                    <View style={[imageStyle, styles.imageStyle]}>
+                    <TouchableOpacity
+                      activeOpacity={0.8}
+                      style={[imageStyle, styles.imageStyle]}>
                       <Text style={{...Fonts.Light(10, Colors.WHITE)}}>
                         40+
                       </Text>
-                    </View>
-                    <View style={styles.addCircle}>
+                    </TouchableOpacity>
+                    <TouchableOpacity style={styles.addCircle}>
                       <Image source={icons.add} style={styles.addIcon} />
-                    </View>
+                    </TouchableOpacity>
                   </View>
                 )}
               </>

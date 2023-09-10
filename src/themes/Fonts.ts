@@ -1,6 +1,6 @@
 import {APP_PRIMARY_TEXT} from './Colors';
 import {TextStyle} from 'react-native';
-import {vw} from './units';
+
 export default class Fonts {
   static FontFamily = {
     default: 'Ubuntu',

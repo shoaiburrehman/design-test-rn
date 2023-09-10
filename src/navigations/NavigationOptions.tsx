@@ -66,15 +66,17 @@ const renderHeaderRight = (props: any) => {
           <Text style={styles.notifText}>5</Text>
         </View>
       </TouchableOpacity>
-      <LinearGradient
-        start={{x: 0, y: 0}}
-        end={{x: 1, y: 1}}
-        colors={Colors.TEXT_LINEAR}
-        style={styles.linearText}>
-        <View style={styles.profView}>
-          <Image source={images.profImg} style={styles.profImg} />
-        </View>
-      </LinearGradient>
+      <TouchableOpacity>
+        <LinearGradient
+          start={{x: 0, y: 0}}
+          end={{x: 1, y: 1}}
+          colors={Colors.TEXT_LINEAR}
+          style={styles.linearText}>
+          <View style={styles.profView}>
+            <Image source={images.profImg} style={styles.profImg} />
+          </View>
+        </LinearGradient>
+      </TouchableOpacity>
     </View>
   );
 };

@@ -16,7 +16,7 @@ const centerAlign = {
 const inputControl = {
   flex: 1,
   height: Platform.OS === 'ios' ? vh * 10 : vh * 6,
-  ...Fonts.Medium(16, Colors.WARM_GREY),
+  ...Fonts.Medium(16, Colors.BLACK_CIRCLE2),
 };
 
 export {appMainContainer, inputControl, centerAlign};

@@ -13,6 +13,11 @@ export const Colors = {
   TAB_COLOR: '#725DFF',
   BG_COLOR: '#1F1F1F',
   NOTIF_COLOR: '#FF964B',
+  CARD_BG1: '#B265FF',
+  CARD_BG2: '#C1515F',
+  BORDER: '#4D4D4D',
+  TAB_COLOR_DEFAULT: '#6D6D6D',
+  TAB_IN: '#3D3D3D',
 };
 
 export const APP_SHADOW = {

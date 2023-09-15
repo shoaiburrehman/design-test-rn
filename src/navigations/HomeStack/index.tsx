@@ -11,7 +11,7 @@ const HomeNavigator = () => {
     <HomeStack.Navigator initialRouteName={NavigationRoutes.HOME}>
       <HomeStack.Screen
         name={NavigationRoutes.HOME}
-        component={HomeScreen}
+        component={BackgroundImageScreen}
         options={navigationOptions}
       />
     </HomeStack.Navigator>

@@ -24,6 +24,7 @@ export const icons = {
   message: require('./icons/message.png'),
   notification: require('./icons/notification.png'),
   more: require('./icons/more.png'),
+  placeholder: require('./icons/placeholder.jpg'),
   search: require('./icons/search.png'),
   share: require('./icons/share.png'),
 };
